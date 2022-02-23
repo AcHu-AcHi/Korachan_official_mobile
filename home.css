@@ -13,8 +13,7 @@ body {
 h1{
   position: absolute;
   color: white;
-  width: 30vw;
-  height: 30vh;
+  font-size: 50px;
   font-family: 'impact';
 }
 
@@ -135,6 +134,10 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
   color: #ffffff!important;
 }
 
+.page-header {
+  display:block;
+}
+
 ul.main-nav{
   display: flex;
   list-style: none;
@@ -146,27 +149,19 @@ ul.main-nav{
 .main-nav a:hover{
   color:#000000;
 }
-.page-header {
-  display:flex;
-  list-style:none;
-}
 
-div.main-nav1{
-  position:relative;
+.main-nav1{
   display: flex;
-  margin-top: 50px;
   list-style: none;
-  margin-left: 50px;
-  width: 30px;
-  height: 30px;
 }
-div.main-nav1 li{
+.main-nav1 li{
   margin-left: 0;
 }
 
-div.main-nav1 a:hover{
+.main-nav1 a:hover{
   color: #ffffff
 }
+
 
 
 
