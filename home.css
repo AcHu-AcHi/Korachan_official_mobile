@@ -10,6 +10,20 @@ body {
   -webkit-animation: bugfix infinite 1s;
 }
 
+h1{
+  position: absolute;
+  color: #ffffff;
+  width: 30vw;
+  height: 30vh;
+  font-family: 'impact';
+}
+
+
+.class1 img{
+  width: 100vw;
+  height: 20vh;
+}
+
 @keyframes bugfix {
   from {
     padding: 0;
@@ -39,7 +53,7 @@ body {
   height: 4px;
   width: 35px;
   border-radius: 2px;
-  background-color: #001aaa;
+  background-color: #ffffff;
   position: relative;
   display: block;
   transition: all .2s ease-in-out;
@@ -55,13 +69,13 @@ body {
   height: 4px;
   width: 35px;
   border-radius: 2px;
-  background-color: #001aaa;
+  background-color: #ffffff;
   position: absolute;
   content: "";
   transition: all .2s ease-in-out;
 }
 #overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
-  background: #001aaa;
+  background: #ffffff;
 }
 
 input[type=checkbox] {
@@ -91,7 +105,7 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 #overlay {
   height: 100vh;
   width: 100vw;
-  background: #ffffff;
+  background: #000000;
   z-index: 2;
   visibility: hidden;
   position: fixed;
@@ -113,12 +127,12 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
   padding: 1em;
 }
 #overlay ul li a {
-  color: #001aaa;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.5em;
 }
 #overlay ul li a:hover {
-  color: #001aaa!important;
+  color: #ffffff!important;
 }
 
 .main-nav{
