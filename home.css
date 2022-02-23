@@ -21,7 +21,7 @@ h1{
 
 .class1 img{
   width: 100vw;
-  height: 20vh;
+  height: 10vh;
 }
 
 @keyframes bugfix {
@@ -135,14 +135,9 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
   color: #ffffff!important;
 }
 
-.main-nav{
-  position: relative;
+ul.main-nav{
   display: flex;
   list-style: none;
-  margin-top: 0px;
-  margin-left: 0; 
-  width: 30px;
-  height: 30px;
 }
 .main-nav li{
   margin-left: 0;
@@ -153,23 +148,25 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 }
 .page-header {
   display:flex;
+  list-style:none;
 }
 
-.main-nav1{
+div.main-nav1{
   position:relative;
   display: flex;
   margin-top: 50px;
   list-style: none;
   margin-left: 50px;
-  width: 3vw;
-  height: 30vh;
+  width: 30px;
+  height: 30px;
 }
-.main-nav1 li{
+div.main-nav1 li{
   margin-left: 0;
 }
 
-.main-nav1 a:hover{
+div.main-nav1 a:hover{
   color: #ffffff
 }
+
 
 
