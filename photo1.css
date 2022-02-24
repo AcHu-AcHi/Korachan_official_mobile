@@ -139,9 +139,12 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
     height:70vh;
     margin-left:0;
 }
-
+.class2{
+    text-align: center;
+    line-height:0.5rem;
+}
 .class2 h2{
-position: absolute;
+position: ;
    font-size: 600%;
    color:#ffffff;
 
