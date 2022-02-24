@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+body {
+  background: #ffffff;
+  margin: 0;
+  font-family: arial;
+  width: 100vw;
+  height: 100vh;
+  animation: bugfix infinite 1s;
+  -webkit-animation: bugfix infinite 1s;
+}
+
+h1{
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  font-family: 'impact';
+}
+
+
+.class1 img{
+  width: 100vw;
+  height: 10vh;
+}
+
+@keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+@-webkit-keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+#overlay-button {
+  position: absolute;
+  right: 2em;
+  top: 3em;
+  padding: 26px 11px;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+}
+#overlay-button span {
+  height: 4px;
+  width: 35px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  position: relative;
+  display: block;
+  transition: all .2s ease-in-out;
+}
+#overlay-button span:before {
+  top: -10px;
+  visibility: visible;
+}
+#overlay-button span:after {
+  top: 10px;
+}
+#overlay-button span:before, #overlay-button span:after {
+  height: 4px;
+  width: 35px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  content: "";
+  transition: all .2s ease-in-out;
+}
+#overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
+  background: #ffffff;
+}
+
+input[type=checkbox] {
+  display: none; 
+  
+}
+
+input[type=checkbox]:checked ~ #overlay {
+  visibility: visible; 
+}
+
+input[type=checkbox]:checked ~ #overlay-button:hover span, input[type=checkbox]:checked ~ #overlay-button span {
+  background: transparent;
+  
+  
+}
+input[type=checkbox]:checked ~ #overlay-button span:before {
+  transform: rotate(45deg) translate(7px, 7px);
+
+}
+input[type=checkbox]:checked ~ #overlay-button span:after {
+  transform: rotate(-45deg) translate(7px, -7px);
+
+
+}
+
+#overlay {
+  height: 100vh;
+  width: 100vw;
+  background: #000000;
+  z-index: 2;
+  visibility: hidden;
+  position: fixed;
+}
+#overlay.active {
+
+}
+#overlay ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  padding-left: 0;
+  list-style-type: none;
+}
+#overlay ul li {
+  padding: 1em;
+}
+#overlay ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+#overlay ul li a:hover {
+  color: #ffffff!important;
+}
+
+.page-header{
+    list-style: none;    
+    font-family: impact;
+}
+
+.main-nav h1 {
+    position: absolute;
+    list-style: none;
+    margin-top: 40%;
+    margin-left:5%;
+    font-size: 1000%;
+    color: #ffffff;
+}
+.main-nav h2 {
+    position: absolute;
+    list-style: none;
+    margin-top: 90%;
+    margin-left:40%;
+    font-size:1000%;
+    color:#000000;
+}
+.main-nav h3 {
+    position:absolute;
+    list-style: none;
+    margin-top:150%;
+    margin-left:10% ;
+    font-size:1000%;
+    color:#ffffff;
+}
