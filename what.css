@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  background: #ffffff;
+  background:linear-gradient(#000000, #0026ff) ;
   margin: 0;
   font-family: arial;
   width: 100vw;
