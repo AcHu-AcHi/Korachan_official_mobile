@@ -137,7 +137,7 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 .class2 img{
     width:50vw;
     height:50vh;
-    margin-left:0vw;
+    margin-left:0;
 }
 
 .class2 h2{
