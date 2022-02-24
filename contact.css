@@ -135,7 +135,8 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 }
 
 
-h2{
+h2{ 
+  font-size:250%;
     color: #000000;
 }
 .button{
@@ -174,4 +175,13 @@ input[type="submit"]{
     cursor:pointer;
     line-height:1;
 }
+@media(max-width:600p){
+    #contact .page-title{
+        margin-top:40px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea{
+        max-width:100%;
+    }
 }
