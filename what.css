@@ -147,7 +147,7 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 }
 
 h3{
-  margin-top: 0px;
+  margin-top: 150px;
   color: #000000;
   text-align: center;
   line-height: 150%;
