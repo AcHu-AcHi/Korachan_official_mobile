@@ -168,5 +168,5 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
   
   .class2 img{
     width: 100vw;
-    height: 10vh;
+    height: 20vh;
   }
