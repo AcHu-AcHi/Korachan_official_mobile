@@ -24,7 +24,7 @@ h1{
 }
 
 .class2 img{
-  margin-top:500px;
+  margin-top:0px;
   margin-left:0;
 }
 
@@ -147,8 +147,10 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 }
 
 h3{
-  margin-top: 400px;
+  margin-top: 0px;
   color: #000000;
   text-align: center;
+  line-height: 150%;
+  font-size: 1.5rem;
   
 }
