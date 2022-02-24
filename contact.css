@@ -175,7 +175,7 @@ input[type="submit"]{
     cursor:pointer;
     line-height:1;
 }
-@media(max-width:600p){
+@media(max-width:600px){
     #contact .page-title{
         margin-top:40px;
     }
