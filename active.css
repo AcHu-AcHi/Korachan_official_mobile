@@ -136,7 +136,7 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 
 .page-header{
     list-style: none;    
-    font-family: impact;
+    font-family: 'impact';
 }
 
 .main-nav h1 {
