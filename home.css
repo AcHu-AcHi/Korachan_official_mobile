@@ -14,7 +14,7 @@ h1{
   position: absolute;
   color: white;
   font-size: 50px;
-  font-family: 'impact';
+  font-family: impact;
 }
 
 
@@ -162,6 +162,9 @@ ul.main-nav{
   color: #ffffff
 }
 
-
+.class2 img{
+  width: 100vw;
+  height: 10vh;
+}
 
 
